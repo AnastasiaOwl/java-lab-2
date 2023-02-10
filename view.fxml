@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="500.0" maxWidth="600.0" minHeight="800.0" prefHeight="500.0" prefWidth="588.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pack.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <Label text="surname" translateX="-256.0" translateY="473.0" />
+        <Label text="name" translateX="-250.0" translateY="465.0" translateZ="2.0" />
+        <TextArea fx:id="List" maxWidth="550.0" minHeight="50.0" prefHeight="50.0" prefWidth="200.0" translateX="-3.0" translateY="494.0" />
+        <Label text="patronymic" translateX="-108.0" translateY="322.0" />
+        <Button fx:id="AddToListT" mnemonicParsing="false" onAction="#ToList" text="Add to list" translateX="-237.0" translateY="349.0" />
+        <Label text="adress" translateX="-111.0" translateY="271.0" />
+        <Label text="CardNumber" translateX="39.0" translateY="232.0" />
+        <Label text="CardBalance" translateX="224.0" translateY="159.0" />
+        <TextField fx:id="patronymicT" maxHeight="20.0" maxWidth="85.0" minHeight="25.0" prefHeight="45.0" prefWidth="20.0" translateX="-32.0" translateY="121.0" />
+        <TextField fx:id="nameT" maxWidth="85.0" translateX="-185.0" translateY="110.0" />
+        <TextField fx:id="surnameT" maxWidth="85.0" translateX="-187.0" translateY="34.0" />
+        <TextField fx:id="adressT" maxWidth="85.0" translateX="-47.0" translateY="15.0" />
+        <TextField fx:id="cardNumberT" maxWidth="85.0" translateX="119.0" translateY="-34.0" />
+        <TextField fx:id="cardBalanceT" maxWidth="85.0" translateX="235.0" translateY="-81.0" />
+        <DatePicker fx:id="BirthdayT" maxWidth="85.0" translateX="114.0" translateY="-158.0" />
+        <Label text="BirthDate" translateX="42.0" translateY="-197.0" translateZ="-1.0" />
+        <Button fx:id="removeT" mnemonicParsing="false" onAction="#remove" text="remove" translateX="-242.0" translateY="-66.0" />
+        <TextField fx:id="indexT" maxHeight="85.0" maxWidth="85.0" translateX="-151.0" translateY="-113.0" />
+        <TextArea fx:id="ListR" prefHeight="200.0" prefWidth="200.0" translateX="-2.0" translateY="-121.0" />
+        <Button fx:id="searchNameB" mnemonicParsing="false" onAction="#searchName" text="Search name" translateX="-233.0" translateY="-130.0" />
+        <TextArea fx:id="ListName" prefHeight="200.0" prefWidth="200.0" translateY="-139.0" />
+        <TextField fx:id="searchNameT" maxWidth="85.0" minHeight="25.0" prefWidth="85.0" translateX="-126.0" translateY="-236.0" />
+        <Button fx:id="searchCardNumberT" mnemonicParsing="false" onAction="#searchCardNumber" text="Search cardNumber" translateX="-223.0" translateY="-192.0" />
+        <Label text="from" translateX="-136.0" translateY="-235.0" />
+        <Label text="to" translateX="-13.0" translateY="-275.0" />
+        <TextField fx:id="cardNumberFromT" maxWidth="85.0" prefWidth="85.0" translateX="-74.0" translateY="-315.0" />
+        <TextField fx:id="cardNumberToT" maxWidth="85.0" translateX="49.0" translateY="-361.0" />
+        <TextArea fx:id="ListCardNumber" prefHeight="200.0" prefWidth="200.0" translateY="-366.0" />
+        <Button fx:id="debt" mnemonicParsing="false" onAction="#Debt" text="debt" translateX="-248.0" translateY="-374.0" />
+        <TextArea fx:id="ListDebt" prefHeight="200.0" prefWidth="200.0" translateY="-383.0" />
+        <TextArea fx:id="qCardBalanceT" maxHeight="25.0" maxWidth="85.0" minHeight="25.0" prefHeight="200.0" prefWidth="200.0" translateX="-168.0" translateY="-481.0" />
+        <Button fx:id="sort" mnemonicParsing="false" onAction="#Sort" text="sort" translateX="-248.0" translateY="-439.0" />
+        <TextArea fx:id="SortT" prefHeight="200.0" prefWidth="200.0" translateY="-450.0" />
+        <Button fx:id="YearS" mnemonicParsing="false" onAction="#yearSort" text="yearSort" translateX="-239.0" translateY="-455.0" />
+        <TextArea fx:id="sortYear" prefHeight="200.0" prefWidth="200.0" translateY="-465.0" />
+        <Button fx:id="YearBalance" mnemonicParsing="false" onAction="#yearBalanceB" text="YearBalance" translateX="-239.0" translateY="-472.0" />
+        <TextArea fx:id="YearBalanceT" prefHeight="200.0" prefWidth="200.0" translateY="-477.0" />
+    </children>
+
+</VBox>
